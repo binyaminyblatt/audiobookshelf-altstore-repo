@@ -1,0 +1,225 @@
+{
+  "name": "Audiobookshelf",
+  "tintColor": "#bf9000",
+  "iconURL": "https://raw.githubusercontent.com/advplyr/audiobookshelf-app/master/static/Logo.png",
+  "description": "Audiobookshelf is a self-hosted audiobook server for managing and listening to your audiobooks.",
+  "homepage": "https://audiobookshelf.org",
+  "featuredApps": [
+    "com.audiobookshelf.app"
+  ],
+  "apps": [
+    {
+      "name": "Audiobookshelf",
+      "bundleIdentifier": "com.audiobookshelf.app",
+      "developerName": "Audiobookshelf Team",
+      "localizedDescription": "Audiobookshelf is a self-hosted audiobook server for managing and listening to your audiobooks.",
+      "minimumOSVersion": "13.0",
+      "iconURL": "https://raw.githubusercontent.com/advplyr/audiobookshelf-app/master/static/Logo.png",
+      "tintColor": "#bf9000",
+      "screenshots": [
+        "https://raw.githubusercontent.com/advplyr/audiobookshelf-app/master/screenshots/DeviceDemoScreens.png"
+      ],
+      "versions": [
+        {
+          "version": "0.9.79",
+          "buildVersion": "36",
+          "date": "2025-01-27T16:45:19Z",
+          "localizedDescription": "Fixed\r\n\u2022 Playing audiobook from collection uses local media if available\r\n\u2022 UI/UX: Cover images now show for servers older than v2.17.0\r\n\u2022 (Android) Crash when downloading media using server older than v2.17.0 1450\r\n\u2022 (Android) Android Auto functions being requested when not using android auto 1446\r\n\u2022 (Android) End of Chapter Sleep Timer not respecting playback speed 1399 by @nichwall in 1453\r\n\u2022 (Android) Auto Sleep Timer starting outside of time window 1268 by @nichwall in 1453\r\n\r\nUpdated\r\n\u2022 UI/UX: Missing items show missing indicator on cover and on item page\r\n\u2022 UI/UX: Playlists/collections play button shows pause when item is playing 1394\r\n\u2022 UI/UX: Podcast episodes default sort order is based on podcast type (\"serial\" is pub date ascending) by @anstosa in 1455\r\n\u2022 UI/UX: Support rich text descriptions (coming in next server release) 1281\r\n\u2022 (Android) Disabling Auto Sleep Timer now only disables for that day 1200 by @nichwall in 1453\r\n\u2022 More strings translated\r\n  \u2022 Chinese (Simplified Han script) by @springsunx\r\n  \u2022 Croatian by @biuklija @milotype\r\n  \u2022 Czech by @Losicek\r\n  \u2022 Danish by @ZombieSmurf @MorellReng\r\n  \u2022 German by @Vito0912 @RaHoni @TheBinaryLoop @akynr\r\n  \u2022 Hungarian by @ugyes\r\n  \u2022 Norwegian Bokm\u00e5l by @PSchaug\r\n  \u2022 Slovenian by @thehijacker\r\n  \u2022 Spanish by @nothingbutlucas\r\n  \u2022 Swedish by @Cotignac\r\n\r\nNew Contributors\r\n* @anstosa made their first contribution in https://github.com/advplyr/audiobookshelf\u2022app/pull/1455\r\n\r\nFull Changelog: https://github.com/advplyr/audiobookshelf\u2022app/compare/v0.9.78\u2022beta...v0.9.79\u2022beta",
+          "downloadURL": "https://github.com/advplyr/audiobookshelf-app/releases/download/v0.9.79-beta/Audiobookshelf.ipa",
+          "size": 9196480,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "0.9.78",
+          "buildVersion": "35",
+          "date": "2025-01-19T18:39:27Z",
+          "localizedDescription": "Requires server v2.17.0 and up for images to load\r\n\r\nAdded\r\n\u2022 Epub ereader setting to allow volume keys to navigate while playing 1365 by @RaHoni in 1383\r\n\u2022 Epub ereader setting to keep screen awake 1207\r\n\u2022 Bengali and Slovenian language options\r\n\u2022 Catalan language option by @jaumet in 1407\r\n\u2022 (Android) Better Android Auto library browsing 1204 by @ISO\u2022B in 1322\r\n\r\nFixed\r\n\u2022 UI/UX: Epub ereader settings overflow not scrollable 1374\r\n\r\nUpdated\r\n\u2022 UI/UX: Podcast items show num episodes incomplete in library tab\r\n\u2022 UI/UX: Create bookmark auto focuses input and selects placeholder text\r\n\u2022 UI/UX: Bookmark timestamps are relative to playback speed 1148\r\n\u2022 UI/UX: Bookmark create button is sticky to the bottom of modal 1413\r\n\u2022 UI/UX: Show warning message for server connections using old user id 1411\r\n\u2022 UI/UX: Format numbers w/ localization 1427\r\n\u2022 UI/UX: Sync error icon on audio player cover image shows alert message on tap 1396\r\n\u2022 Support subdirectory in server address (coming soon in server) by @mikiher in 1417\r\n\u2022 More strings localized 1375\r\n\u2022 (Android) Downloads request raw cover image (for best quality) 1328\r\n\u2022 Strings translated\r\n  \u2022 Arabic by @Terminal\u2022Grasshopper\r\n  \u2022 Belarusian by @i\u2022Nosferatu\u2022i\r\n  \u2022 Bengali by @soaibsafi\r\n  \u2022 Bulgarian by @i\u2022Nosferatu\u2022i\r\n  \u2022 Catalan by @martinezpenya\r\n  \u2022 Chinese (Simplified Han script) by @springsunx @Tamanegii\r\n  \u2022 Chinese (Traditional Han script) by @Tamanegii\r\n  \u2022 Croatian by @biuklija @milotype\r\n  \u2022 Czech by @vachekcz @Plazec\r\n  \u2022 Danish by @WiredMic\r\n  \u2022 Dutch by @matieke\r\n  \u2022 French by @isogashiiman\r\n  \u2022 German by @Vito0912\r\n  \u2022 Hebrew by @mnavon\r\n  \u2022 Hungarian by @ugyes\r\n  \u2022 Italian by @burghy86\r\n  \u2022 Lithuanian by @pranelio\r\n  \u2022 Portuguese (Brazil) by @paulohenriquesg\r\n  \u2022 Russian by @Nab0y\r\n  \u2022 Slovenian by @thehijacker\r\n  \u2022 Spanish by @gallegonovato\r\n  \u2022 Swedish by @Cotignac\r\n\r\nInternal\r\n\u2022 Update to Capacitor 6\r\n\r\nNew Contributors\r\n* @jaumet made their first contribution in https://github.com/advplyr/audiobookshelf\u2022app/pull/1407\r\n* @mikiher made their first contribution in https://github.com/advplyr/audiobookshelf\u2022app/pull/1417\r\n\r\nFull Changelog: https://github.com/advplyr/audiobookshelf\u2022app/compare/v0.9.77\u2022beta...v0.9.78\u2022beta",
+          "downloadURL": "https://github.com/advplyr/audiobookshelf-app/releases/download/v0.9.78-beta/Audiobookshelf.ipa",
+          "size": 9190062,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "0.9.76",
+          "buildVersion": "33",
+          "date": "2024-08-13T21:42:35Z",
+          "localizedDescription": "Added\r\n\u2022 Random library sort option 1285\r\n\r\nFixed\r\n\u2022 (Android) Crash on starting stream\r\n\r\nUpdated\r\n\u2022 Strings translated\r\n  \u2022 Swedish by @Landrash\r\n\r\nFull Changelog: https://github.com/advplyr/audiobookshelf\u2022app/compare/f405947...8bc5932",
+          "downloadURL": "https://github.com/advplyr/audiobookshelf-app/releases/download/v0.9.76-beta/Audiobookshelf.ipa",
+          "size": 8976480,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "0.9.74",
+          "buildVersion": "31",
+          "date": "2024-05-20T14:47:27Z",
+          "localizedDescription": "Added\r\n\u2022 Links to web client on item pages and side nav by @nichwall in 1079\r\n\u2022 \"No Series\" filter for book libraries 1184\r\n\u2022 Explicit indicator next to titles 1181\r\n\u2022 Ukrainian translations by @cor\u2022bee in 1136\r\n\u2022 Vietnamese translations by @nichwall in 1127\r\n\r\nFixed\r\n\u2022 Remove from playlist in context menu 987\r\n\u2022 UI/UX: Closing sleep timer modal when custom timer sub modal is open 1112\r\n\u2022 UI/UX: Podcast library playlists page shows incorrect label in toolbar 1135\r\n\u2022 (Android) Client version passed in listening sessions\r\n\u2022 (Android) Cover image in notification being resized 657\r\n\u2022 (iOS) Certain headphones can't pause when playback speed is above 1x 1177 by @indiefan in 1178\r\n\u2022 (iOS) Pause not working after updating settings 1141 by @indiefan in 1205\r\n\r\nUpdated\r\n\u2022 Include 1.7x playback speed in modal 1180\r\n\u2022 Support for comic files with webp images\r\n\u2022 (iOS) Refactor AudioPlayer to use a Rate Manager protocol by @indiefan in 1179\r\n\u2022 Strings translated\r\n  \u2022 Vietnamese by @nichwall in 1127\r\n  \u2022 Ukrainian by @cor\u2022bee in 1136 1140 1206\r\n  \u2022 Portuguese (Brazil) by @pmangro in 1139 1160\r\n  \u2022 Italian by @burghy86 in 1153\r\n  \u2022 Simplified Chinese by @springsunx in 1162\r\n  \u2022 French by @Fymyte in 1176\r\n\r\nInternal\r\n\u2022 Github workflow for i18n strings by @nichwall in 1142 1174\r\n\u2022 Github issue templates by @nichwall in 1199 1201\r\n\u2022 Readme: Translation guide link added by @nichwall in 1150\r\n\r\nNew Contributors\r\n* @nichwall made their first contribution in https://github.com/advplyr/audiobookshelf\u2022app/pull/1127\r\n* @cor\u2022bee made their first contribution in https://github.com/advplyr/audiobookshelf\u2022app/pull/1136\r\n* @springsunx made their first contribution in https://github.com/advplyr/audiobookshelf\u2022app/pull/1162\r\n* @Fymyte made their first contribution in https://github.com/advplyr/audiobookshelf\u2022app/pull/1176\r\n* @indiefan made their first contribution in https://github.com/advplyr/audiobookshelf\u2022app/pull/1178\r\n\r\nFull Changelog: https://github.com/advplyr/audiobookshelf\u2022app/compare/v0.9.73\u2022beta...v0.9.74\u2022beta",
+          "downloadURL": "https://github.com/advplyr/audiobookshelf-app/releases/download/v0.9.74-beta/Audiobookshelf.ipa",
+          "size": 8959544,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "0.9.73",
+          "buildVersion": "30",
+          "date": "2024-03-03T22:32:57Z",
+          "localizedDescription": "Added\r\n\u2022 Setting to enable/disable seeking on media notification controls 526 by @fidoriel in 1094\r\n\u2022 Remove from playlist option in context menu of media items on playlist page 987\r\n\u2022 Portuguese (Brazil) translations by @pmangro in 1095\r\n\u2022 Hungarian translations by @megamegax in 1109\r\n\r\nFixed\r\n\u2022 Local media item page long titles overflowing screen pushing play & more menu button offscreen 1103\r\n\u2022 Swiping with modal open minimizes/expands audio player 1099\r\n\u2022 Progress bar overflowing edge of screen on orientation changes\r\n\u2022 Playlist tab not shown after adding first playlist 1092\r\n\u2022 (Android) Android auto not connecting to server, only showing downloads 1081\r\n\r\nUpdated\r\n\u2022 Seeking in media notification controls is disabled by default\r\n\u2022 Strings translated\r\n  \u2022 Czech by @arcao in 1082\r\n  \u2022 Hungarian by @megamegax in 1109\r\n  \u2022 Portuguese (Brazil) by @pmangro in 1095 1106\r\n\r\nNew Contributors\r\n* @arcao made their first contribution in https://github.com/advplyr/audiobookshelf\u2022app/pull/1082\r\n* @pmangro made their first contribution in https://github.com/advplyr/audiobookshelf\u2022app/pull/1095\r\n* @fidoriel made their first contribution in https://github.com/advplyr/audiobookshelf\u2022app/pull/1094\r\n* @megamegax made their first contribution in https://github.com/advplyr/audiobookshelf\u2022app/pull/1109\r\n\r\nFull Changelog: https://github.com/advplyr/audiobookshelf\u2022app/compare/v0.9.72\u2022beta...v0.9.73\u2022beta",
+          "downloadURL": "https://github.com/advplyr/audiobookshelf-app/releases/download/v0.9.73-beta/Audiobookshelf.ipa",
+          "size": 8947698,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "0.9.72",
+          "buildVersion": "29",
+          "date": "2024-02-11T15:01:12Z",
+          "localizedDescription": "Added\r\n\u2022 Player setting to toggle scaling elapsed time by playback speed 1028\r\n\r\nFixed\r\n\u2022 Continue listening shelves for local media not being shown on first connection attempt 1038\r\n\u2022 Settings page toggle touch area 1021\r\n\u2022 No response when clicking on media item after losing server connection\r\n\u2022 Library list still showing in app bar with no network connection\r\n\u2022 Device info not being reported for fully offline listening sessions\r\n\u2022 (iOS) Reporting 0 second listening sessions 970\r\n\u2022 (Android) Crash on startup due to SimpleStorage 1040\r\n\u2022 (Android) Still sending server sync requests when in offline mode (after pressing \"Disconnect\")\r\n\r\nUpdated\r\n\u2022 Audio player title scrolls when text overflows 740\r\n\u2022 Minimized player shows title and current chapter title 740\r\n\u2022 Swiping down anywhere on fullscreen audio player closes it 1046\r\n\u2022 Swiping up on minimized audio player opens it 1046\r\n\u2022 Authors page cards size increased to show 2 per row 1026\r\n\u2022 (iOS) After app is suspended audio is not resumed (fix attempt for 973)\r\n\u2022 Strings translated\r\n  \u2022 German by @bloodscript in 1052\r\n  \u2022 Italian by @burghy86 in 1032\r\n  \u2022 Polish by @Bogumio in 1042 1049\r\n\r\nNew Contributors\r\n* @Bogumio made their first contribution in https://github.com/advplyr/audiobookshelf\u2022app/pull/1042\r\n* @bloodscript made their first contribution in https://github.com/advplyr/audiobookshelf\u2022app/pull/1052\r\n\r\nFull Changelog: https://github.com/advplyr/audiobookshelf\u2022app/compare/v0.9.71\u2022beta...v0.9.72\u2022beta",
+          "downloadURL": "https://github.com/advplyr/audiobookshelf-app/releases/download/v0.9.72-beta/Audiobookshelf.ipa",
+          "size": 9229844,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "0.9.70",
+          "buildVersion": "27",
+          "date": "2024-01-02T13:42:54Z",
+          "localizedDescription": "Added\r\n\u2022 Year in review stats images to user stats page (Requires server v2.7.1+)\r\n\u2022 Epub ereader setting to use single page layout for tablets 1018\r\n\u2022 Tags to item page 1014\r\n\r\nFixed\r\n\u2022 Spacing for comma separated links on items page 1020\r\n\u2022 Library list view long titles causing overflow 1013\r\n\u2022 Download indicator overlapping series sequence on book covers 996\r\n\u2022 Filter dialog clear button overflowing notch 999\r\n\u2022 (iOS) Play/pause with specific headphones/speakers 622 by @benonymity @KaiStarkk in 1005 1016\r\n\u2022 (iOS) (partial fix) Swipe back in fullscreen audio player by @benonymity in 1003\r\n\r\nUpdated\r\n\u2022 Comma separated links on item page can wrap to multiple lines\r\n\u2022 Background color gradient on item page to absolute position\r\n\u2022 (iOS) Now playing widget respects chapter track setting in audio player 239 @ronaldheft @benonymity in 1002\r\n\u2022 (iOS) Status bar changes color to match the full screen audio player background by @benonymity in 1004\r\n\u2022 Strings translated\r\n  \u2022 German by @Hallo951 in 991\r\n  \u2022 Simplified Chinese by @Jafeyyu in 997 1007\r\n\r\nNew Contributors\r\n* @KaiStarkk made their first contribution in https://github.com/advplyr/audiobookshelf\u2022app/pull/1016\r\n\r\nFull Changelog: https://github.com/advplyr/audiobookshelf\u2022app/compare/v0.9.69\u2022beta...v0.9.71\u2022beta",
+          "downloadURL": "https://github.com/advplyr/audiobookshelf-app/releases/download/v0.9.71-beta/Audiobookshelf.ipa",
+          "size": 9180757,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "0.9.68",
+          "buildVersion": "25",
+          "date": "2023-11-27T14:43:38Z",
+          "localizedDescription": "Added\r\n\u2022 Podcast episode filter for downloaded episodes\r\n\u2022 (Android) Monochrome app icon 786\r\n\r\nFixed\r\n\u2022 Redirecting to server item copy from local copy when there is no network connection 958\r\n\u2022 Opening local item that was downloaded on server v2.2.23 or earlier but are now on a more recent server version 953\r\n\u2022 Downloaded item alert for user mismatch when server connection is storing an old user id 945\r\n\u2022 Podcast page more menu button not working when at least 1 episode is downloaded\r\n\u2022 OIDC login button (for upcoming server release)\r\n\u2022 (Android) Android auto unable to play podcast episodes 832\r\n\r\nUpdated\r\n\u2022 Navigating to podcast from the local podcast home page shelf will auto filter by downloaded episodes 958\r\n\r\nFull Changelog: https://github.com/advplyr/audiobookshelf\u2022app/compare/v0.9.67\u2022beta...v0.9.68\u2022beta",
+          "downloadURL": "https://github.com/advplyr/audiobookshelf-app/releases/download/v0.9.68-beta/Audiobookshelf.ipa",
+          "size": 8996243,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "0.9.67",
+          "buildVersion": "24",
+          "date": "2023-11-18T16:25:15Z",
+          "localizedDescription": "Added\r\n\u2022 Support for oauth2 (preparing for upcoming server release) by @Sapd in 906\r\n\u2022 Send ebook to device 909\r\n\u2022 Tags shown in search results 940\r\n\r\nFixed\r\n\u2022 404 when clicking on collapsed series item in list view 877\r\n\u2022 Series page sorting by name 925\r\n\u2022 (iOS) Sleep timer stopping after player interaction 477 by @atoghyani in 887\r\n\u2022 (iOS) Progress not being saved for downloads 825\r\n\u2022 (Android) Downloading finished media item not being marked as finished 903\r\n\u2022 (Android) Seeking in notification player resetting progress 894\r\n\r\nUpdated\r\n\u2022 Server connection form: Server address no longer requires protocol & improved error messaging by @Sapd in 906\r\n\u2022 Library item page for local downloads shows alerts if the current connected server does not match\r\n\u2022 Podcast search page renamed to \"Add\" 936\r\n\u2022 Bookmarks modal is no longer closed after updating/deleting 882\r\n\u2022 Playlist table row items include progress bar & more context menu 914\r\n\u2022 Collection table does not show duration for ebooks\r\n\u2022 Making native http requests instead of webview fetch requests to resolve CORS issues 781\r\n\u2022 Server connect page shows message to new users that an Audiobookshelf server is required 912\r\n\u2022 (iOS) Sync local sessions using new sync all api endpoint (fixes https://github.com/advplyr/audiobookshelf/issues/2294)\r\n\u2022 (iOS) Removed background task syncing with server when media is paused\r\n\u2022 (Android) Removed scanning options for local downloads and ffmpegkit dependency\r\n\r\nNew Contributors\r\n* @Sapd made their first contribution in https://github.com/advplyr/audiobookshelf\u2022app/pull/906\r\n* @atoghyani made their first contribution in https://github.com/advplyr/audiobookshelf\u2022app/pull/887\r\n\r\nFull Changelog: https://github.com/advplyr/audiobookshelf\u2022app/compare/v0.9.66\u2022beta...v0.9.67\u2022beta",
+          "downloadURL": "https://github.com/advplyr/audiobookshelf-app/releases/download/v0.9.67-beta/Audiobookshelf.ipa",
+          "size": 8996023,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "0.9.66",
+          "buildVersion": "23",
+          "date": "2023-09-17T21:30:12Z",
+          "localizedDescription": "Added\r\n\u2022 .ipa for sideloading on iOS (included in release assets) 837\r\n\r\nFixed\r\n\u2022 Comma separated lists space before comma 777 by @casrou in 813\r\n\u2022 Separator between authors by @lkiesow in 851\r\n\u2022 Comic reader incorrect file sort order when file number is more than 5\u2022digits\r\n\u2022 Progress lost when app is in background for extended period 828\r\n\u2022 Clicking title on fullscreen audio player redirects to item page but doesnt change library 803\r\n\u2022 Epub ereader incorrect line\u2022height on titles causing overlap 874\r\n\u2022 Epub ereader swiping sometimes moving 2 pages (partial fix) 802\r\n\u2022 (Android) Sync server progress to local progress 808\r\n\u2022 (Android) Internal storage downloads triggering multiple times 791\r\n\u2022 (Android) Offline playback sessions continuing to sync creating duplicates on the server\r\n\u2022 (Android) Android auto loading podcast episodes 832\r\n\u2022 (Android) Mp3 index seeking setting not persisting 638\r\n\r\nUpdated\r\n\u2022 Making native http requests instead of webview fetch requests to resolve CORS issues 781\r\n\u2022 Initial server connection no longer blocks app usage\r\n\u2022 Podcast covers show number of episodes incomplete instead of total episodes 315\r\n\u2022 Local sessions are synced on network reconnections\r\n\u2022 Add \"Switch Server/User\" button in side drawer and account page 628\r\n\u2022 Renamed \"Logout\" to \"Disconnect\" in side drawer (does not redirect, just goes in offline\u2022mode) 628\r\n\u2022 Epub ereader shows location in the bottom left 766\r\n\u2022 Bookmarks modal UI/UX 876\r\n\u2022 (iOS) Removed lock orientation setting because it's not supported on iOS webview\r\n\u2022 (Android) Android auto includes explicit indicator 611\r\n\r\nNew Contributors\r\n* @casrou made their first contribution in https://github.com/advplyr/audiobookshelf\u2022app/pull/813\r\n\r\nFull Changelog: https://github.com/advplyr/audiobookshelf\u2022app/compare/v0.9.65\u2022beta...v0.9.66\u2022beta",
+          "downloadURL": "https://github.com/advplyr/audiobookshelf-app/releases/download/v0.9.66-beta/Audiobookshelf.ipa",
+          "size": 8962052,
+          "minOSVersion": "14.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "get-task-allow",
+          "cdhashes"
+        ],
+        "privacy": {}
+      }
+    }
+  ],
+  "news": [
+    {
+      "title": "0.9.79 - Audiobookshelf",
+      "identifier": "release-0.9.79",
+      "caption": "Update of Audiobookshelf just got released!",
+      "date": "2025-01-27T16:45:19Z",
+      "tintColor": "#000000",
+      "imageURL": "https://raw.githubusercontent.com/advplyr/audiobookshelf-app/master/static/Logo.png",
+      "notify": true,
+      "url": "https://github.com/advplyr/audiobookshelf-app/releases/tag/v0.9.79-beta"
+    },
+    {
+      "title": "0.9.78 - Audiobookshelf",
+      "identifier": "release-0.9.78",
+      "caption": "Update of Audiobookshelf just got released!",
+      "date": "2025-01-19T18:39:27Z",
+      "tintColor": "#000000",
+      "imageURL": "https://raw.githubusercontent.com/advplyr/audiobookshelf-app/master/static/Logo.png",
+      "notify": true,
+      "url": "https://github.com/advplyr/audiobookshelf-app/releases/tag/v0.9.78-beta"
+    },
+    {
+      "title": "0.9.76 - Audiobookshelf",
+      "identifier": "release-0.9.76",
+      "caption": "Update of Audiobookshelf just got released!",
+      "date": "2024-08-13T21:42:35Z",
+      "tintColor": "#000000",
+      "imageURL": "https://raw.githubusercontent.com/advplyr/audiobookshelf-app/master/static/Logo.png",
+      "notify": true,
+      "url": "https://github.com/advplyr/audiobookshelf-app/releases/tag/v0.9.76-beta"
+    },
+    {
+      "title": "0.9.74 - Audiobookshelf",
+      "identifier": "release-0.9.74",
+      "caption": "Update of Audiobookshelf just got released!",
+      "date": "2024-05-20T14:47:27Z",
+      "tintColor": "#000000",
+      "imageURL": "https://raw.githubusercontent.com/advplyr/audiobookshelf-app/master/static/Logo.png",
+      "notify": true,
+      "url": "https://github.com/advplyr/audiobookshelf-app/releases/tag/v0.9.74-beta"
+    },
+    {
+      "title": "0.9.73 - Audiobookshelf",
+      "identifier": "release-0.9.73",
+      "caption": "Update of Audiobookshelf just got released!",
+      "date": "2024-03-03T22:32:57Z",
+      "tintColor": "#000000",
+      "imageURL": "https://raw.githubusercontent.com/advplyr/audiobookshelf-app/master/static/Logo.png",
+      "notify": true,
+      "url": "https://github.com/advplyr/audiobookshelf-app/releases/tag/v0.9.73-beta"
+    },
+    {
+      "title": "0.9.72 - Audiobookshelf",
+      "identifier": "release-0.9.72",
+      "caption": "Update of Audiobookshelf just got released!",
+      "date": "2024-02-11T15:01:12Z",
+      "tintColor": "#000000",
+      "imageURL": "https://raw.githubusercontent.com/advplyr/audiobookshelf-app/master/static/Logo.png",
+      "notify": true,
+      "url": "https://github.com/advplyr/audiobookshelf-app/releases/tag/v0.9.72-beta"
+    },
+    {
+      "title": "0.9.70 - Audiobookshelf",
+      "identifier": "release-0.9.70",
+      "caption": "Update of Audiobookshelf just got released!",
+      "date": "2024-01-02T13:42:54Z",
+      "tintColor": "#000000",
+      "imageURL": "https://raw.githubusercontent.com/advplyr/audiobookshelf-app/master/static/Logo.png",
+      "notify": true,
+      "url": "https://github.com/advplyr/audiobookshelf-app/releases/tag/v0.9.71-beta"
+    },
+    {
+      "title": "0.9.68 - Audiobookshelf",
+      "identifier": "release-0.9.68",
+      "caption": "Update of Audiobookshelf just got released!",
+      "date": "2023-11-27T14:43:38Z",
+      "tintColor": "#000000",
+      "imageURL": "https://raw.githubusercontent.com/advplyr/audiobookshelf-app/master/static/Logo.png",
+      "notify": true,
+      "url": "https://github.com/advplyr/audiobookshelf-app/releases/tag/v0.9.68-beta"
+    },
+    {
+      "title": "0.9.67 - Audiobookshelf",
+      "identifier": "release-0.9.67",
+      "caption": "Update of Audiobookshelf just got released!",
+      "date": "2023-11-18T16:25:15Z",
+      "tintColor": "#000000",
+      "imageURL": "https://raw.githubusercontent.com/advplyr/audiobookshelf-app/master/static/Logo.png",
+      "notify": true,
+      "url": "https://github.com/advplyr/audiobookshelf-app/releases/tag/v0.9.67-beta"
+    },
+    {
+      "title": "0.9.66 - Audiobookshelf",
+      "identifier": "release-0.9.66",
+      "caption": "Update of Audiobookshelf just got released!",
+      "date": "2023-09-17T21:30:12Z",
+      "tintColor": "#000000",
+      "imageURL": "https://raw.githubusercontent.com/advplyr/audiobookshelf-app/master/static/Logo.png",
+      "notify": true,
+      "url": "https://github.com/advplyr/audiobookshelf-app/releases/tag/v0.9.66-beta"
+    }
+  ]
+}
